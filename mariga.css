@@ -1,0 +1,17 @@
+header
+{
+    border: 2px solid rgb(rgb(0, 0, 0));
+    display: inline flex;
+    width:100%;
+    align-items: center;
+}
+
+section
+{
+    display: inline-flex;
+}
+
+.logo1
+{
+    margin-left: 30%;
+}
