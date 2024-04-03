@@ -1,7 +1,7 @@
 body{
-    background-image:url();
-    background-repeat: no-repeat;
+    background-color: rgb(150, 59, 58);
     background-size: 100%;
+
 }
 .quadro{
     background-color: rgb(180, 120, 51);
@@ -38,4 +38,59 @@ body{
 }
 .quadro h3{
     margin:0px 0px 20px 15%
+}
+.voltar{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(180, 98, 51);
+    position:sticky;
+    left:92%;
+    top:550px;
+}
+.voltar a{
+    color: rgb(255, 255, 250);
+    position: absolute;
+    top:20px;
+    left: 10px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.voltar a:hover{
+    color: rgb(200, 0, 60);
+}
+#Popular{
+    margin-top: 110px;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(180, 98, 51);
+    position:absolute;
+    top:0px;
+    left:0px;
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+header img{
+    margin-left: 40px;
+}
+header nav li{
+    display: inline-flex;
+    margin-top: 25px;
+    margin-left: 60px;
+}
+header nav li a{
+    color: white;
+    text-decoration:none;
+    font-size: 25px;
+}
+header nav li a:hover{
+    color: rgb(200, 0, 60);
+}
+
+h2{
+    margin-left: 20%;
+    color:rgb(245, 213, 175);
+    margin-top: 5%;
+    margin-bottom: 2%;
 }
