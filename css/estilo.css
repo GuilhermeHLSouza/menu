@@ -3,6 +3,9 @@ body{
     background-size: 100%;
 
 }
+html{
+    scroll-behavior: smooth;
+}
 .quadro{
     background-color: rgb(180, 120, 51);
     width: 75%;
@@ -43,15 +46,16 @@ body{
     width: 70px;
     height: 70px;
     background-color: rgb(180, 98, 51);
-    position:sticky;
+    position:sticky; /*posiciona em um local da pagina quando chega no local posicionado começa a seguir*/ 
+    /*configura a posição do elemento*/
     left:92%;
-    top:550px;
+    top:90%;
 }
 .voltar a{
     color: rgb(255, 255, 250);
-    position: absolute;
+    position:absolute;
     top:20px;
-    left: 10px;
+    left: 5px;
     text-decoration: none;
     font-size: 25px;
 }
@@ -65,7 +69,7 @@ header{
     height: 100px;
     width: 100%;
     background-color: rgb(180, 98, 51);
-    position:absolute;
+    position:fixed;
     top:0px;
     left:0px;
     display: inline-flex;
@@ -93,4 +97,7 @@ h2{
     color:rgb(245, 213, 175);
     margin-top: 5%;
     margin-bottom: 2%;
+}
+:target{
+    scroll-margin-top:110px
 }
