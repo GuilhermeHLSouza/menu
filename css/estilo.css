@@ -62,11 +62,9 @@ html{
 .voltar a:hover{
     color: rgb(200, 0, 60);
 }
-#Popular{
-    margin-top: 110px;
-}
+
 header{
-    height: 100px;
+    height: 150px;
     width: 100%;
     background-color: rgb(180, 98, 51);
     position:fixed;
@@ -80,7 +78,6 @@ header img{
 }
 header nav li{
     display: inline-flex;
-    margin-top: 25px;
     margin-left: 60px;
 }
 header nav li a{
@@ -91,13 +88,21 @@ header nav li a{
 header nav li a:hover{
     color: rgb(200, 0, 60);
 }
-
+header nav h1{
+    margin-left: 70px;
+    color: rgb(255, 255, 255);
+    height: 50px;
+    font-size: 40px;
+}
 h2{
     margin-left: 20%;
     color:rgb(245, 213, 175);
     margin-top: 5%;
     margin-bottom: 2%;
 }
+#Popular{
+    margin-top: 160px;
+}
 :target{
-    scroll-margin-top:110px
+    scroll-margin-top:160px;
 }
